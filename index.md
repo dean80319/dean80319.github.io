@@ -1,2 +1,21 @@
-layout: default
-title: 我的部落格
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Dean 的個人空間</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; }
+        h1 { color: #2c3e50; }
+        p { color: #7f8c8d; }
+        .btn { display: inline-block; padding: 10px 20px; background: #3498db; color: white; text-decoration: none; border-radius: 5px; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🚀 Dean80319 的 GitHub 基地</h1>
+        <p>這是我的第一個由 GitHub Pages 託管的網站！</p>
+        <a href="#" class="btn">了解更多</a>
+    </div>
+</body>
+</html>
